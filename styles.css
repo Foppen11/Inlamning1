@@ -12,8 +12,6 @@ html, body{
     line-height: 1.5;
     font-size: 16px;
     color: #626262;
-    /*! OKKLART?!? */
-    /* width: 100%;  */
 }
 
 a{
@@ -216,8 +214,8 @@ span{
 
 /* SECTION 5 - Our Services */
 #our-services{
-    background-color: #eceaea;
-    /* padding: 5rem; */
+    background-color: #F7F7F7;
+    padding-bottom: 1rem;
 }
 #our-services .container .content{
     display: grid;
@@ -226,7 +224,6 @@ span{
     align-content: center;
 }
 #our-services .container .content .box-service{
-    
     background-color: #fff;
     border-radius: 3%;
 }
@@ -272,7 +269,9 @@ span{
 }
 .box-service:hover .box-tooth{
     background-color: #2BAAEC;
+    box-shadow: 0 0 0 10px hsl(201, 84%, 55%, 0.3);
 }
+
 
 .box-tooth img{
     display: block;
@@ -287,7 +286,7 @@ span{
 /* SECTION 6 - APOINTMENT */
 
 #appointment{
-    background-color: #2ca9edcc;
+    background-color: hsla(201, 84%, 55%, 0.8);
 }
 #appointment .container{
     display: flex;
@@ -297,7 +296,7 @@ span{
 
 #appointment .btn{
     border: 1px solid #fff;
-    padding: 0.75rem 2.5rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
 }
 #appointment .btn:hover{
